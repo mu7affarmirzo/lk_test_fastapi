@@ -27,3 +27,5 @@ class Token(Base):
     owner = relationship("User", back_populates="token")
 
 
+def pas():
+    pass
